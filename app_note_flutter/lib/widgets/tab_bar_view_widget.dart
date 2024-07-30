@@ -16,10 +16,8 @@ class TabBarViewWidget extends StatelessWidget {
       child: Scaffold(
         // app bar
         appBar: AppBar(
-          backgroundColor: Colors.blue[200],
           title: const Text(
             "App Note",
-            style: TextStyle(fontWeight: FontWeight.bold),
           ),
           actions: [
             IconButton(
@@ -41,7 +39,7 @@ class TabBarViewWidget extends StatelessWidget {
           bottom: TabBar(
             physics: ClampingScrollPhysics(),
             indicatorColor: Colors.blue,
-            labelStyle: TextStyle(color: Colors.white, fontSize: 20),
+            labelStyle: TextStyle(color: Colors.black, fontSize: 20),
             splashBorderRadius: BorderRadius.circular(20),
             // dividerColor: Colors.transparent,
             tabs: [
