@@ -1,5 +1,6 @@
 import 'package:app_note_flutter/screens/home/home_screens.dart';
 import 'package:app_note_flutter/screens/on_boarding_screen/on_boarding_screens.dart';
+import 'package:app_note_flutter/widgets/tab_bar_view_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
